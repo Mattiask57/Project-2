@@ -12,3 +12,26 @@ header {
     width:100vw;
     font-family: Smooch Sans , sans-serif;
 }
+
+h2 {
+    margin: 0;
+    padding: 1px;
+    line-height: 3;
+}
+
+body {
+    font-family: Lora , sans-serif;
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+    font-size: 14px;
+    left: 0;
+    bottom: 0;
+    padding-top: 1px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+}
