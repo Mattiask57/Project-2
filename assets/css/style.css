@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Smooch+Sans:wght@600&display=swap');
+
+html {
+    max-height: 100%;
+    position: relative;
+}
+
+header {
+    text-align:center;
+    background-color:#d2f700;
+    overflow: auto;
+    width:100vw;
+    font-family: Smooch Sans , sans-serif;
+}
