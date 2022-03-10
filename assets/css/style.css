@@ -138,3 +138,27 @@ img {
     width:17vw ;
     height:17vw ;       
 }
+
+#player-img {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    transform: translate(-50%, -50%);    
+
+}
+#computer-img {
+    display:flex;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#house-choice-img {
+    visibility:hidden;
+}
+
+#user-choice-img {
+    visibility: hidden;
+}
