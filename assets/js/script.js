@@ -54,3 +54,69 @@ function generateComputerChoice(){
     computerImage.src = `./assets/images/${computerChoiceDisplay.innerHTML}.jpg`; 
      computerImage.style.visibility = "visible" ;  
  }
+
+ function getResult(){
+    if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'rock'){
+        result = 'Draw, you both have rock!';
+   
+    
+    }
+    if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'paper'){
+        result = 'Draw, you both have paper!';
+    
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'scissors'){
+        result = 'Draw, you both have scissors!';
+  
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'paper'){
+        result = 'You Win, paper wraps rock !';
+        win();
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'scissors'){
+        result = 'You lost!, scissors gets jammed by rock  ';
+        lose();
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'scissors'){
+        result= 'You Win!, scissors cuts paper';
+        win();
+        
+    }
+    if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'rock'){
+        result= 'You lost!, rock gets wrapped by paper';
+        lose();
+        
+        
+    }
+    if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'rock'){
+        result= 'You Win!, rock jams scissors';
+        win();
+        
+    }
+    if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'paper'){
+        result= 'You lost!, paper gets cut by scissors';
+        lose();
+    }
+    resultDisplay.innerHTML = result;
+}
+ 
+function win(){
+    playerScore++;
+    playerScoreSpan.innerHTML = playerScore;
+    computerScoreSpan.innerHTML = computerScore;
+    
+}
+function lose(){
+    computerScore++;
+    computerScoreSpan.innerHTML = computerScore;
+    playerScoreSpan.innerHTML = playerScore;
+}
+
+function toggleImage() {
+    var hiddenImage = document.getElementById('rules-text');
+    hiddenImage.classList.toggle('hidden');
+  }
