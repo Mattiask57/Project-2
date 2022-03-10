@@ -5,33 +5,25 @@
 
 This website is a Rock Paper Scissors Game. The site is responsive to most devices and easy to navigate for users of all kind.
 
+- <h2 align="left"><img src="assets/wireframes/responsive-image.jpg"></h2>
+
 
 ## User Experience (UX)
 
 
 -   ### User stories
 
+    As a user i want the game to be fun
 
-    -   #### First Time Visitor Goals
+    As a user i want to be able to read the rules of the game
 
+    -   #### User Goals
 
-        1. As a First Time Visitor, I want to understand the website and be able to investigate more about the association.
+    The game should have relevant content
 
-        2. As a First Time Visitor, I want to be able to navigate fast on the website to learn more about the association.
+    The game should be fun
 
-
-    -   #### Returning Visitor Goals
-
-
-        1. As a Returning Visitor, I want to be able to navigate to the contact section.
-
-        2. As a Returning Visitor, I want to find social links.
-
-
-    -   #### Frequent Visitor Goals
-
-        1. As a Frequent Visitor, I want to easily see the dates and times when they play.
-
+    The game should be able to run on all platforms
 
 
 -   ### Design
@@ -42,7 +34,7 @@ This website is a Rock Paper Scissors Game. The site is responsive to most devic
 
     -   #### Typography
 
-        I used the Smooch Sans font for headers with a fallback of Sans Serif if for some reason Quicksand won't load
+        I used the Smooch Sans font for headers with a fallback of Sans Serif if for some reason Smooch Sans won't load
         
         I used the Lora font for all other text in the body such as paragraphs, with a fall back of Sans Serif
         
@@ -50,7 +42,7 @@ This website is a Rock Paper Scissors Game. The site is responsive to most devic
 
     -   #### Imagery
 
-        -   The imagery is there to get you to understand what the site is about, show information about the association.
+        -   The image used was used to set the 
 
 
 ## Features
@@ -60,6 +52,14 @@ This website is a Rock Paper Scissors Game. The site is responsive to most devic
 
 
         - The header contains the name of the game.
+
+-   #### The Game Area Section
+
+        - The Game Area Section contains the game score of the user and computer and all the buttons and choices
+
+-   #### The Footer
+
+        - The Footer contains the rules for the game
 
 
 ## Technologies Used
@@ -71,6 +71,8 @@ This website is a Rock Paper Scissors Game. The site is responsive to most devic
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 
 ### Frameworks, Libraries & Programs Used
@@ -104,6 +106,10 @@ The W3C Markup Validator, W3C CSS Validator and JSHint JavaScript Validator Serv
 
      - No errors were returned when passing through the official W3C validator
 
+-   JSHint
+
+     - No errors were returned when passing through the official JSHint validator
+
 - Accessibility
 
     - I used the lighthouse tool from chrome dev tools to harmonize the colors.
@@ -114,14 +120,14 @@ The W3C Markup Validator, W3C CSS Validator and JSHint JavaScript Validator Serv
 ### Further Testing
 
 
--   The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
+-   The Website was tested on Google Chrome, Internet Explorer, and Microsoft Edge browsers.
 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneSE & iPhoneX.
 
 
 ### Known Bugs
 
-- After form submission you're redirected to a Code Institute Thank you page.
+
 
 ## Deployment
 
@@ -211,13 +217,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 
--   
+-   I took inspiration for the game from: @wakey001 on github.
 
-
-### Content
-
-
--   Inspiration for table data was found [here]()
     
 ### Media
 
@@ -227,4 +228,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 
--   My Mentor for continuous helpful feedback.
+-   The codeinstitute slack community helped a lot.
