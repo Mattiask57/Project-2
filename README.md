@@ -108,7 +108,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint JavaScript Validator Serv
 
     - I used the lighthouse tool from chrome dev tools to harmonize the colors.
 
-<h2 align="left"><img src="assets/Wireframes/Lighthouse.jpg"></h2>
+<h2 align="left"><img src="assets/wireframes/Lighthouse.jpg"></h2>
 
         
 ### Further Testing
