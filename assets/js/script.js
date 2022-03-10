@@ -30,3 +30,27 @@ const controlOptions = {
     paper: "./assets/images/paper.jpg",
     scissors: "./assets/images/scissors.jpg",
 };
+
+function displayUserChoice(control) { 
+    document.getElementById("user-choice-img").src = controlOptions[control];
+
+    let userContest = document.getElementById("user-choice-img");
+      userContest.style.visibility = "visible" ;
+    }
+      
+possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
+userChoice = e.target.id;
+userChoiceDisplay.innerHTML = userChoice;
+generateComputerChoice();
+getResult();
+gameOver();
+}));
+
+
+function generateComputerChoice(){
+    const choices = ['rock', 'scissors', 'paper'];
+    const randomNumber = Math.floor(Math.random () * choices.length);
+    computerChoiceDisplay.innerHTML = choices[randomNumber] ;
+    computerImage.src = `./assets/images/${computerChoiceDisplay.innerHTML}.jpg`; 
+     computerImage.style.visibility = "visible" ;  
+ }
