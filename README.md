@@ -1,108 +1,230 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Rock Paper Scissors Game</h1>
 
-Welcome Mattiask57,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View project here.](https://mattiask57.github.io/project-2/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This website is a Rock Paper Scissors Game. The site is responsive to most devices and easy to navigate for users of all kind.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+-   ### User stories
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to understand the website and be able to investigate more about the association.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        2. As a First Time Visitor, I want to be able to navigate fast on the website to learn more about the association.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   #### Returning Visitor Goals
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+        1. As a Returning Visitor, I want to be able to navigate to the contact section.
 
-## Release History
+        2. As a Returning Visitor, I want to find social links.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    -   #### Frequent Visitor Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+        1. As a Frequent Visitor, I want to easily see the dates and times when they play.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+-   ### Design
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    -   #### Colour Scheme
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+        My main colors used are #52D1DC, #d2f700, #000, #70ee09, #ff7b00 and some more.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    -   #### Typography
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+        I used the Smooch Sans font for headers with a fallback of Sans Serif if for some reason Quicksand won't load
+        
+        I used the Lora font for all other text in the body such as paragraphs, with a fall back of Sans Serif
+        
+        -   
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    -   #### Imagery
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+        -   The imagery is there to get you to understand what the site is about, show information about the association.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+-   #### The Header
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+        - The header contains the name of the game.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Technologies Used
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Languages Used
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Frameworks, Libraries & Programs Used
+
+
+
+1. [Google Fonts:](https://fonts.google.com/)
+
+    - Google fonts were used to import the Lato and Krona one fonts to the website.
+
+2. [Git](https://git-scm.com/)
+
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+3. [GitHub:](https://github.com/)
+
+    - GitHub is used to store the projects code after being pushed from Git.
+
+
+## Testing
+
+
+The W3C Markup Validator, W3C CSS Validator and JSHint JavaScript Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+
+-   HTML
+
+     - No errors were returned when passing through the official W3C validator
+
+-   CSS
+
+     - No errors were returned when passing through the official W3C validator
+
+- Accessibility
+
+    - I used the lighthouse tool from chrome dev tools to harmonize the colors.
+
+<h2 align="left"><img src="assets/Wireframes/Lighthouse.jpg"></h2>
+
+        
+### Further Testing
+
+
+-   The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
+
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneSE & iPhoneX.
+
+
+### Known Bugs
+
+- After form submission you're redirected to a Code Institute Thank you page.
+
+## Deployment
+
+
+### GitHub Pages
+
+
+The project was deployed to GitHub Pages using the following steps...
+
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+
+5. The page will automatically refresh.
+
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+
+### Forking the GitHub Repository
+
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+### Making a Local Clone
+
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. Under the repository name, click "Clone or download".
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
+4. Open Git Bash
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 ```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+7. Press Enter. Your local clone will be created.
 
----
 
-Happy coding!
+```
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+> Cloning into `CI-Clone`...
+
+> remote: Counting objects: 10, done.
+
+> remote: Compressing objects: 100% (8/8), done.
+
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+
+> Unpacking objects: 100% (10/10), done.
+
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
+## Credits
+
+
+### Code
+
+
+-   
+
+
+### Content
+
+
+-   Inspiration for table data was found [here]()
+    
+### Media
+
+
+-   The images used for the page were taken from [here](https://freesvg.org/rock-paper-scissors).
+
+### Acknowledgements
+
+
+-   My Mentor for continuous helpful feedback.
